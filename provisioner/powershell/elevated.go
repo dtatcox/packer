@@ -27,7 +27,7 @@ $t.XmlText = @'
   <Principals>
     <Principal id="Author">
       <UserId>{{.User}}</UserId>
-      <LogonType>Password</LogonType>
+      <LogonType>InteractiveTokenOrPassword</LogonType>
       <RunLevel>HighestAvailable</RunLevel>
     </Principal>
   </Principals>
